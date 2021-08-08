@@ -1,0 +1,24 @@
+{
+  "name": "finale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "prestart": "npm run build",
+    "start": "nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/shopify-api": "^1.4.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
